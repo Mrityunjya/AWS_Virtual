@@ -1,0 +1,129 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Home Page Styles */
+.home-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ff6f61;
+}
+
+.content h1 span {
+    color: #ffc107;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.buttons .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.buttons .btn:hover {
+    background: #ff3d3d;
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styles */
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container .btn {
+    width: 100%;
+    text-align: center;
+}
+
+/* Dashboard Styles */
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background: #444;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.logout-btn {
+    margin-top: 20px;
+    background: #dc3545;
+}
+
+.logout-btn:hover {
+    background: #c82333;
+}
+.home-container {
+    background: url('../static/images/banner.jpg') no-repeat center center/cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
